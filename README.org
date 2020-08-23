@@ -1,0 +1,16 @@
+#+TITLE: motivations-el
+
+A collection of motivating messages
+
+* Install
+
+Add motivations-el to your ~load-path~ and require. Something like:
+
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'load-path "path/to/motivations-el/")
+  (require 'motivations)
+#+END_SRC
+
+* Usage
+
+Type ~M-x motivation~ to get motivating message. Or type ~C-x C-m~ to call the same function.
