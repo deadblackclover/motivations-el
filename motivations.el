@@ -91,5 +91,7 @@
   (interactive)
   (message (motivations-get-random-element motivations-list)))
 
+(global-set-key (kbd "C-x C-m") 'motivation)
+
 (provide 'motivations)
 ;;; motivations.el ends here
